@@ -1,7 +1,10 @@
+METADATA :
+linkedTC : a8e043a0-832f-4ccb-8bb9-b1a0242a1ab5
+
 TEST :
 LOAD selenium-resources/src/test AS seleniumTestSource
 CONVERT seleniumTestSource TO script.java(compile) AS seleniumTestCompiled
-CONVERT seleniumTestCompiled TO script.java.selenium2(script) USING $(user.test.RandomTestJUnit4) AS seleniumTest
+CONVERT seleniumTestCompiled TO script.java.selenium2(script) USING $(singe.banana.RandomTestJUnit4) AS seleniumTest
 
 EXECUTE execute WITH seleniumTest AS seleniumResult
 ASSERT seleniumResult IS success

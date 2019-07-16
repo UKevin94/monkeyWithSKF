@@ -1,8 +1,5 @@
-// lines prefixed with double slashes count as commentary.
-// the following test will just load a file during the setup phase
-// and make it available in the test context. Read the documentation
-// to know more about scripting.
-
+METADATA :
+linkedTC : 42a2ae96-8dc3-4315-b970-8df1f3520860
 
 SETUP :
 
@@ -10,4 +7,4 @@ SETUP :
 
 TEST :
 
-# EXECUTE_JUNIT_TEST randomTest()  FROM  user.test.RandomTestJUnit5  IN  selenium-resources/src/test
+# EXECUTE_JUNIT_TEST randomTest()  FROM  singe.banana.RandomTestJUnit5  IN  selenium-resources/src/test

@@ -1,4 +1,4 @@
-package user.test;
+package singe.banana;
 
 import org.junit.After;
 import org.junit.Before;

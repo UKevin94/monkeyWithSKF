@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/agoncal-sample-jhipster" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/concombreAnglais" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/metadata/junit-metadata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/metadata/junit-metadata-ko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/metadata/skf-metadata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/metadata/skf-metadata-ko" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tnr_broken" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/tnr_reworked/squash-ta-functional-tests" vcs="hg4idea" />
+  </component>
+</project>

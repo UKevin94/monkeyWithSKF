@@ -1,0 +1,7 @@
+TEST :
+LOAD selenium-resources/src/test AS seleniumTestSource
+CONVERT seleniumTestSource TO script.java(compile) AS seleniumTestCompiled
+CONVERT seleniumTestCompiled TO script.java.selenium2(script) USING $(user.test.RandomTestJUnit4) AS seleniumTest
+
+EXECUTE execute WITH seleniumTest AS seleniumResult
+ASSERT seleniumResult IS success

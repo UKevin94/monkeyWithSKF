@@ -1,35 +1,25 @@
 {
-  "timestamp": "2019-07-17T09:55:06.269+0000",
+  "timestamp": "2019-07-17T12:15:44.964+0000",
   "name": "tests",
   "contents": [
     {
       "name": "junit4.ta",
       "metadata": {
-        "linked-TC": "0b4a61a7-eede-43e5-a9f2-d332d96f8386"
+        "linked-TC": [
+          "0b4a61a7-eede-43e5-a9f2-d332d96f8386",
+          "blabla"
+        ]
       },
       "contents": null
     },
     {
       "name": "junit5.ta",
       "metadata": {
-        "LINKED-TC": "f62a35f7-c25a-4133-919b-fbf84f7f7721"
+        "linked-TC": [
+          "f62a35f7-c25a-4133-919b-fbf84f7f7721",
+          "zzzzz"
+        ]
       },
-      "contents": null
-    }
-  ]
-}
-
-
-{
-  "timestamp": "2019-07-17T09:59:37.162+0000",
-  "name": "tests",
-  "contents": [
-    {
-      "name": "junit4.ta",
-      "contents": null
-    },
-    {
-      "name": "junit5.ta",
       "contents": null
     }
   ]

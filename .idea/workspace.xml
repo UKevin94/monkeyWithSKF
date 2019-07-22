@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbcb822f-cf0f-4848-965a-cc0a80ff7266" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/squashTA/tests/junit5.ta" beforeDir="false" afterPath="$PROJECT_DIR$/src/squashTA/tests/junit5.ta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/squashTA/resources/zz.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/squashTA/resources/zz.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,13 +21,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="68">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/squashTA/tests/junit4.ta">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/squashTA/tests/junit5.ta">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -47,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/squashTA/resources/zz.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="397">
+              <caret line="1342" column="26" lean-forward="true" selection-start-line="1342" selection-start-column="26" selection-end-line="1342" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -91,10 +92,10 @@
         <option value="$PROJECT_DIR$/src/squashTA/resources/selenium-resources/pom.xml" />
         <option value="$PROJECT_DIR$/src/squashTA/resources/selenium-resources/src/test/java/singe/banana/RandomTestJUnit5.java" />
         <option value="$PROJECT_DIR$/src/squashTA/resources/selenium-resources/src/test/java/singe/banana/RandomTestJUnit4.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/squashTA/tests/junit4.ta" />
-        <option value="$PROJECT_DIR$/src/squashTA/resources/zz.json" />
         <option value="$PROJECT_DIR$/src/squashTA/tests/junit5.ta" />
+        <option value="$PROJECT_DIR$/src/squashTA/resources/zz.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -165,7 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../junit_multi_module/M01_One" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tnr_intellij/squash-ta-functional-tests/F00.Html_Report" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -231,27 +232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/squashTA/tests/junit4.ta">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/squashTA/resources/zz.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/squashTA/resources/selenium-resources/src/test/java/singe/banana/RandomTestJUnit4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -266,10 +246,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/squashTA/resources/zz.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="1342" column="26" lean-forward="true" selection-start-line="1342" selection-start-column="26" selection-end-line="1342" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/squashTA/tests/junit5.ta">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="62" lean-forward="true" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/squashTA/tests/junit4.ta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>

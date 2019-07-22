@@ -25,7 +25,7 @@
                 <span>ArtifactId:&nbsp;</span>monkeytesting<br/> 
                 <span>Version:&nbsp;</span>1.0-SNAPSHOT<br/> 
                 <br/> 
-                <span>Execution date:&nbsp;</span>07/17/2019 14:04:26
+                <span>Execution date:&nbsp;</span>07/22/2019 15:26:18
                 <br/>
             </div>
 
@@ -51,27 +51,27 @@
 </a></div>
         </td>
         <td><a href="#tests">tests</a></td>
-        <td>1</td>
-        <td>1</td>
+        <td>2</td>
+        <td>2</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>100%</td>
-        <td>0,014</td>
+        <td>13,2</td>
     </tr>
                     </tbody>
                     <tfoot>
                         <tr class="b">
                             <td colspan=2>Total:</td>
-                            <td>1</td>
-                            <td>1</td>
+                            <td>2</td>
+                            <td>2</td>
                             <td>0</td>
                             <td>0</td>
                             <td>0</td>
                             <td>0</td>                        
                             <td>100%</td>
-                            <td>0,014</td>
+                            <td>13,2</td>
                         </tr>
                     </tfoot>
             </table>
@@ -104,15 +104,27 @@ tests
                 </thead>
                 <tbody>
     <tr>
-        <td class="center status"><a href="#tests_probetest.ta">         <img src="public/images/Circle_Green.png" />
+        <td class="center status"><a href="#tests_junit4.ta">         <img src="public/images/Circle_Green.png" />
  </a></td>
         <td>
-                <a href="#tests_probetest.ta">probetest.ta</a>
+                <a href="#tests_junit4.ta">junit4.ta</a>
         </td>
         <td>        Success
 </td>
         <td>
-                0,005
+                7,084
+        </td>
+    </tr>
+    <tr>
+        <td class="center status"><a href="#tests_junit5.ta">         <img src="public/images/Circle_Green.png" />
+ </a></td>
+        <td>
+                <a href="#tests_junit5.ta">junit5.ta</a>
+        </td>
+        <td>        Success
+</td>
+        <td>
+                6,111
         </td>
     </tr>
                 </tbody>
@@ -124,7 +136,7 @@ tests
         <div class="script-header">
             <h3>
                         <img src="public/images/Circle_Green.png" />
-<a id="tests_probetest.ta"></a> probetest.ta
+<a id="tests_junit4.ta"></a> junit4.ta
             </h3>
         </div>
         <div class="script-content">
@@ -132,7 +144,7 @@ tests
             <div class="note">
                 <span>Status:&nbsp;</span>        Success
 <br/>
-                <span>Time (s):&nbsp;</span>0,005
+                <span>Time (s):&nbsp;</span>7,084
             </div>
     
             <table class="w100 striped">
@@ -149,12 +161,118 @@ tests
                         </tr>
     <tr class="a">
         <td class="center status">
+        <img src="public/images/Circle_Green.png" />
         </td>
         <td>
-            <div class="col">//This test does nothing (why loose time executing something when we are merely probing the engines innards ?)</div>
+            <div class="col">LOAD selenium-resources/src/test AS seleniumTestSource</div>
         </td>
         <td class="txtcenter instruction-line">
-            2
+            6
+        </td>
+    </tr>
+    <tr class="a">
+        <td class="center status">
+        <img src="public/images/Circle_Green.png" />
+        </td>
+        <td>
+            <div class="col">CONVERT seleniumTestSource TO script.java(compile) AS seleniumTestCompiled</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            7
+        </td>
+    </tr>
+    <tr class="a">
+        <td class="center status">
+        <img src="public/images/Circle_Green.png" />
+        </td>
+        <td>
+            <div class="col">CONVERT seleniumTestCompiled TO script.java.selenium2(script) USING $(singe.banana.RandomTestJUnit4) AS seleniumTest</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            8
+        </td>
+    </tr>
+    <tr class="a">
+        <td class="center status">
+        <img src="public/images/Circle_Green.png" />
+        </td>
+        <td>
+            <div class="col">EXECUTE execute WITH seleniumTest AS seleniumResult</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            10
+        </td>
+    </tr>
+    <tr class="a">
+        <td class="center status">
+        <img src="public/images/Circle_Green.png" />
+        </td>
+        <td>
+            <div class="col">ASSERT seleniumResult IS success</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            11
+        </td>
+    </tr>
+                    
+                </tbody>
+            </table>
+            <br/>
+        </div>
+    </div>
+    <div class="script-link">
+        <a href="#header">[Back to top]</a>&nbsp;<a href="#tests">[Back to tests]</a>
+    </div>
+    
+    <div class="script">
+        <div class="script-header">
+            <h3>
+                        <img src="public/images/Circle_Green.png" />
+<a id="tests_junit5.ta"></a> junit5.ta
+            </h3>
+        </div>
+        <div class="script-content">
+    
+            <div class="note">
+                <span>Status:&nbsp;</span>        Success
+<br/>
+                <span>Time (s):&nbsp;</span>6,111
+            </div>
+    
+            <table class="w100 striped">
+                <thead>
+                    <tr class="table-header">
+                        <th colspan="2" class="big">Test steps</th>
+                        <th class="w50p txtcenter">Line</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td colspan="3"><strong>SETUP :</strong></td>
+                        </tr>
+    <tr class="a">
+        <td class="center status">
+        </td>
+        <td>
+            <div class="col">// here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            8
+        </td>
+    </tr>
+                
+                        <tr>
+                            <td colspan="3"><strong>TEST :</strong></td>
+                        </tr>
+    <tr class="a">
+        <td class="center status">
+        <img src="public/images/Circle_Green.png" />
+        </td>
+        <td>
+            <div class="col"># EXECUTE_JUNIT_TEST randomTest()  FROM  singe.banana.RandomTestJUnit5  IN  selenium-resources/src/test</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            12
         </td>
     </tr>
                     
@@ -172,7 +290,7 @@ tests
         
     </div>
     <div class="footer txtcenter">
-        <p>Generated by Squash TF&copy; on 07/17/2019 14:04</p>
+        <p>Generated by Squash TF&copy; on 07/22/2019 15:26</p>
     </div>
     <script type="text/javascript" src="public/javascripts/dropdown.js" ></script>
 </body>

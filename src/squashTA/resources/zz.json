@@ -1,26 +1,1365 @@
 {
-  "timestamp": "2019-07-17T12:15:44.964+0000",
+  "timestamp": "2019-07-17T12:52:57.135+0000",
   "name": "tests",
   "contents": [
     {
-      "name": "junit4.ta",
-      "metadata": {
-        "linked-TC": [
-          "0b4a61a7-eede-43e5-a9f2-d332d96f8386",
-          "blabla"
-        ]
-      },
-      "contents": null
-    },
-    {
-      "name": "junit5.ta",
-      "metadata": {
-        "linked-TC": [
-          "f62a35f7-c25a-4133-919b-fbf84f7f7721",
-          "zzzzz"
-        ]
-      },
-      "contents": null
+      "name": "OK",
+      "contents": [
+        {
+          "name": "EcosystemOK",
+          "contents": [
+            {
+              "name": "test-one.ta",
+              "metadata": {
+                "first_key": "AB03-DFE1-RTG8-MLB9-OIU5",
+                "random_key": null,
+                "multiline_key": [
+                  "first_step",
+                  "second_step",
+                  "third_step"
+                ]
+              },
+              "contents": null
+            },
+            {
+              "name": "test-two.ta",
+              "metadata": {},
+              "contents": null
+            }
+          ]
+        },
+        {
+          "name": "EcosystemUnicity",
+          "contents": [
+            {
+              "name": "test-one.ta",
+              "metadata": {
+                "unicity_ok": "ecosystem_value"
+              },
+              "contents": null
+            }
+          ]
+        },
+        {
+          "name": "comment-space.ta",
+          "metadata": {
+            "first_key": "first_value",
+            "second_key": "second_value"
+          },
+          "contents": null
+        },
+        {
+          "name": "multiline_duplicate.ta",
+          "metadata": {
+            "duplicate": "same",
+            "duplicate_two": "1"
+          },
+          "contents": null
+        },
+        {
+          "name": "numbers.ta",
+          "metadata": {
+            "11111": "first_value",
+            "22222": null,
+            "33333": [
+              "one",
+              "two",
+              "three"
+            ],
+            "mix4444": null,
+            "first_key": "11111",
+            "multiline": [
+              "22222",
+              "zzzzz",
+              "33333",
+              "mix44"
+            ],
+            "solo_line": "mix5555"
+          },
+          "contents": null
+        },
+        {
+          "name": "special-char.ta",
+          "metadata": {
+            "first_key-to.test": "first_value",
+            "second_key": "second-key_to.test/now"
+          },
+          "contents": null
+        },
+        {
+          "name": "standard-case.ta",
+          "metadata": {},
+          "contents": null
+        },
+        {
+          "name": "value_unicity1.ta",
+          "metadata": {
+            "unicity_ok": "value1",
+            "unicity_ok_multiline": "value_solo"
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity10.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity100.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity101.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity102.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity103.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity104.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity105.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity106.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity11.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity12.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity13.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity14.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity15.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity16.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity17.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity18.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity19.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity2.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity20.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity21.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity22.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity23.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity24.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity25.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity26.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity27.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity28.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity29.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity3.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity30.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity31.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity32.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity33.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity34.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity35.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity36.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity37.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity38.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity39.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity4.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity40.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity41.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity42.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity43.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity44.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity45.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity46.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity47.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity48.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity49.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity5.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity50.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity51.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity52.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity53.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity54.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity55.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity56.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity57.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity58.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity59.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity6.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity60.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity61.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity62.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity63.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity64.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity65.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity66.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity67.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity68.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity69.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity7.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity70.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity71.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity72.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity73.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity74.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity75.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity76.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity77.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity78.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity79.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity8.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity80.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity81.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity82.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity83.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity84.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity85.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity86.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity87.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity88.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity89.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity9.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity90.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity91.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity92.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity93.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity94.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity95.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity96.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity97.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity98.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        },
+        {
+          "name": "value_unicity99.ta",
+          "metadata": {
+            "unicity_ok": "value2",
+            "unicity_ok_multiline": [
+              "value_one",
+              "value_two",
+              "value_three"
+            ]
+          },
+          "contents": null
+        }
+      ]
     }
   ]
 }

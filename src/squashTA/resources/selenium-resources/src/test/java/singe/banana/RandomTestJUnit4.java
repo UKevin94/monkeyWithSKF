@@ -35,7 +35,7 @@ public class RandomTestJUnit4 {
 
     @Test
     public void randomTest(){
-    	driver.findElement(By.xpath("//input[@title='Rechercher']")).sendKeys("selenium junit 4");
+    	driver.findElement(By.xpath("//input[@title='Rechercher']")).sendKeys("zzzzzzzzzzzzzz");
     	//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@title='Rechercher']"))));
         Assert.assertTrue(true);
     }

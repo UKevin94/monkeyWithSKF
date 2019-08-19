@@ -34,9 +34,9 @@ public class RandomTestJUnit4 {
     }
 
     @Test
-    public void randomTest(){
+    public void randomTest() throws InterruptedException {
     	driver.findElement(By.xpath("//input[@title='Rechercher']")).sendKeys("selenium junit 4");
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@title='Rechercher'][text()='selenium junit 4']"))));
+        Thread.sleep(1000);
         Assert.assertTrue("le texte n'a pas été inséré", driver.findElement(By.xpath("//input[@title='Rechercher']")).getText().equals("selenium junit 4"));
     }
 

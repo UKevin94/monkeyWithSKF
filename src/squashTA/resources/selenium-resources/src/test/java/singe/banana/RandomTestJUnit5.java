@@ -41,7 +41,7 @@ public class RandomTestJUnit5 {
     public void randomTest(){
     	driver.findElement(By.xpath("//input[@title='Rechercher']")).sendKeys("selenium junit 5");
     	//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@title='Rechercher']"))));
-        Assertions.assertTrue(true, "");
+        Assertions.assertTrue(driver.findElement(By.xpath("//input[@title='Rechercher']")).getText().equals("selenium junit 5"), "le texte n'a pas été inséré");
     }
 
     @AfterEach

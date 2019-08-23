@@ -24,13 +24,7 @@
                 <artifactId>squash-ta-maven-plugin</artifactId>
                 <version>${ta.framework.version}</version>
 
-                <dependencies>
-                    <dependency>
-                        <groupId>org.squashtest.ta.plugin</groupId>
-                        <artifactId>squash-ta-plugin-selenium</artifactId>
-                        <version>${ta.framework.version}</version>
-                    </dependency>
-                </dependencies>
+
                 <!-- Under here is the Squash TA framework default configuration -->
                 <configuration>
 

@@ -41,7 +41,7 @@ public class RandomTestJUnit5 {
     public void randomTest() throws InterruptedException {
     	driver.findElement(By.xpath("//input[@title='Rechercher']")).sendKeys("selenium junit 5");
 		String value = driver.findElement(By.xpath("//input[@aria-label='Recherche Google'][@type='submit']")).getAttribute("value");
-        Assert.assertTrue("Le bouton Recherche Google n'existe pas", value.equals("Recherche Google"));
+        Assertions.assertTrue(value.equals("Recherche Google"), "Le bouton Recherche Google n'existe pas");
     }
 
     @AfterEach

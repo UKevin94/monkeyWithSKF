@@ -26,7 +26,7 @@ public class RandomTestJUnit5 {
     @BeforeEach
     public void setUp(){
         try{
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
             driver.get("https://www.google.com");
             
         }

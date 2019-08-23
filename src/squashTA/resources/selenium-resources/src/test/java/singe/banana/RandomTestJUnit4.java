@@ -22,7 +22,7 @@ public class RandomTestJUnit4 {
     @Before
     public void setUp(){
         try{
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
             driver.get("https://www.google.com");
             
         }

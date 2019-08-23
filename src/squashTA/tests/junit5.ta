@@ -10,5 +10,3 @@ SETUP :
 TEST :
 
 # EXECUTE_JUNIT_TEST randomTest()  FROM  singe.banana.RandomTestJUnit5  IN  selenium-resources/src/test
-
-# ASSERT_XML  {actual_file}  SIMILAIRE TO  {expected_file_path}  USING  {config}

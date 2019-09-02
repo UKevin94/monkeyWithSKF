@@ -42,7 +42,7 @@ public class RandomTestJUnit4 {
 
     @After
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 
 }

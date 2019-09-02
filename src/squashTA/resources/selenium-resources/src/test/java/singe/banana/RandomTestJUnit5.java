@@ -46,7 +46,7 @@ public class RandomTestJUnit5 {
 
     @AfterEach
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 
 }

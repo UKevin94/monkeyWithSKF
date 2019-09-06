@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<contextUser>
+		<firstname>${cont.firstname}</firstname>
+		<lastname>${cont.lastname}</lastname>
+		<email>${cont.email}</email>
+	</contextUser>
+	<globalUser>
+		<firstname>${glob.firstname}</firstname>
+		<lastname>${glob.lastname}</lastname>
+		<email>${glob.email}</email>
+	</globalUser>
+</users>

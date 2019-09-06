@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<contextUser>
+		<firstname>Jean</firstname>
+		<lastname>Paul</lastname>
+		<email>jean.paul@test.com</email>
+	</contextUser>
+	<globalUser>
+		<firstname>Marc</firstname>
+		<lastname>Delarue</lastname>
+		<email>marc.delarue@test.com</email>
+	</globalUser>
+</users>

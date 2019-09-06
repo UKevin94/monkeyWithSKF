@@ -3,7 +3,7 @@ LOAD xml-resources/initial.xml AS initial_rsc
 LOAD xml-resources/expected.xml AS expected_rsc
 
 TEST :
-CONVERT initial_rsc TO file(param) USING context_script_params, global_script_params AS initial_conv
+CONVERT initial_rsc TO file(param) USING context_script_params, context_global_params AS initial_conv
 
 
 TEARDOWN :

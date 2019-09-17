@@ -1,5 +1,5 @@
 METADATA :
-linked-TCzzzzz : c4e27ae5-0169-48d2-9a65-1c59087b2426
+linked-TC : c4e27ae5-0169-48d2-9a65-1c59087b2426
 
 TEST :
 LOAD selenium-resources/src/test AS seleniumTestSource

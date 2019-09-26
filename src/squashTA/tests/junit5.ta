@@ -1,3 +1,6 @@
+METADATA :
+linked-TC : 0ae0c754-6202-4a8c-a053-7cda067172f8
+
 SETUP :
 
 // here we test the macro defined in shortcuts/sample_shortcut.macro. Note that none of the instructions here are case sensitive :

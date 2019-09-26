@@ -12,7 +12,7 @@
     <!-- Properties definition -->
     <properties>
         <!-- Squash-TA framework version used by the project -->
-        <ta.framework.version>1.13.0.RC3.2</ta.framework.version>
+        <ta.framework.version>1.13.0-RELEASE</ta.framework.version>
 		<!--<tf.disableMetadata>true</tf.disableMetadata>-->
     </properties>
 

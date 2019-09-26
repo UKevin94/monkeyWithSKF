@@ -38,11 +38,12 @@ public class RandomTestJUnit4 {
     	driver.findElement(By.xpath("//input[@title='Rechercher']")).sendKeys("selenium junit 4");
 		String value = driver.findElement(By.xpath("//input[@aria-label='Recherche Google'][@type='submit']")).getAttribute("value");
         Assert.assertTrue("Le bouton Recherche Google n'existe pas", value.equals("Recherche Google"));
+		Assert.assertTrue("Mandatory false", false);
     }
 
     @After
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 
 }
